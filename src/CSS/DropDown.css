@@ -11,7 +11,10 @@
   background-image: linear-gradient(rgb(140, 213, 255), rgb(74, 144, 226));
   border-radius: 25px;
 }
-
+*:focus {
+  outline: 0 !important;
+  box-shadow: none !important;
+}
 .wrapper {
   position: absolute;
   position: absolute;

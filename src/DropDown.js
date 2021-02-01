@@ -79,7 +79,7 @@ class DropDown extends React.Component{
                          )
                          
                          
-                         : <label className="selectIndicator">Movies</label>
+                         : <label className="selectIndicator">Select Favourite Movies</label>
                      }
                  </div>
                  <div className="openIcon">
