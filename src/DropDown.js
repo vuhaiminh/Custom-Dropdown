@@ -35,6 +35,11 @@ class DropDown extends React.Component{
         }
         return false;
     }
+    clearSelection = () => {
+        this.setState({
+            selectedItems: []
+        })
+    }
 
     //helper function to open/close the selection menu
     toggle = (value) =>{
@@ -61,9 +66,9 @@ class DropDown extends React.Component{
                      {
                          selectedSomeItem ? 
                          (
-                             <div className="pills-div">
+                             <div className="display-selected-div">
                              {this.state.selectedItems.map(item => (
-                                 <button className="pills" onClick={(e) => {
+                                 <button className="display-selected-button" onClick={(e) => {
                                     e.stopPropagation() 
                                     this.handleSelectItem(item)}}>
                                     <span className="selected-items-value">{item.value}</span>
@@ -79,11 +84,17 @@ class DropDown extends React.Component{
                  </div>
                  <div className="openIcon">
                    {this.state.open ? <IoIosArrowUp /> : <IoIosArrowDown />}
+                   
                  </div>
                 
              </div>
+             <div>
+                 {selectedSomeItem &&                  
+                 <button className="clearButton" onClick={this.clearSelection}>Clear</button>}
+             </div>
              {/* Header Bar Ends*/}
             {/* Selection Menu Start Here */}
+            
             {this.state.open && (
                 <div className="listItems-div">
                     <ul className="lists">
