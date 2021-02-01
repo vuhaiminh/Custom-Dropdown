@@ -35,6 +35,7 @@ class DropDown extends React.Component{
         }
         return false;
     }
+    // helper function to clear all selected items
     clearSelection = () => {
         this.setState({
             selectedItems: []
@@ -114,7 +115,8 @@ class DropDown extends React.Component{
              
 
 
-         </div>   
+         </div>  
+         
         )
     }
 
