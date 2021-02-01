@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/dropdown/static/css/main.4fe24800.chunk.css",
-    "main.js": "/dropdown/static/js/main.688d0f31.chunk.js",
-    "main.js.map": "/dropdown/static/js/main.688d0f31.chunk.js.map",
-    "runtime-main.js": "/dropdown/static/js/runtime-main.00fd878b.js",
-    "runtime-main.js.map": "/dropdown/static/js/runtime-main.00fd878b.js.map",
-    "static/js/2.c69cf39b.chunk.js": "/dropdown/static/js/2.c69cf39b.chunk.js",
-    "static/js/2.c69cf39b.chunk.js.map": "/dropdown/static/js/2.c69cf39b.chunk.js.map",
-    "index.html": "/dropdown/index.html",
-    "static/css/main.4fe24800.chunk.css.map": "/dropdown/static/css/main.4fe24800.chunk.css.map",
-    "static/js/2.c69cf39b.chunk.js.LICENSE.txt": "/dropdown/static/js/2.c69cf39b.chunk.js.LICENSE.txt"
+    "main.css": "/Custom-Dropdown/static/css/main.4fe24800.chunk.css",
+    "main.js": "/Custom-Dropdown/static/js/main.688d0f31.chunk.js",
+    "main.js.map": "/Custom-Dropdown/static/js/main.688d0f31.chunk.js.map",
+    "runtime-main.js": "/Custom-Dropdown/static/js/runtime-main.266fe7b1.js",
+    "runtime-main.js.map": "/Custom-Dropdown/static/js/runtime-main.266fe7b1.js.map",
+    "static/js/2.c69cf39b.chunk.js": "/Custom-Dropdown/static/js/2.c69cf39b.chunk.js",
+    "static/js/2.c69cf39b.chunk.js.map": "/Custom-Dropdown/static/js/2.c69cf39b.chunk.js.map",
+    "index.html": "/Custom-Dropdown/index.html",
+    "static/css/main.4fe24800.chunk.css.map": "/Custom-Dropdown/static/css/main.4fe24800.chunk.css.map",
+    "static/js/2.c69cf39b.chunk.js.LICENSE.txt": "/Custom-Dropdown/static/js/2.c69cf39b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.00fd878b.js",
+    "static/js/runtime-main.266fe7b1.js",
     "static/js/2.c69cf39b.chunk.js",
     "static/css/main.4fe24800.chunk.css",
     "static/js/main.688d0f31.chunk.js"
